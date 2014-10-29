@@ -13,14 +13,14 @@ module.exports = (robot) ->
     msg.send msg.random [
         "だめよ〜だめだめ",
         "おっぱい！おっぱい！",
-        "http://3.bp.blogspot.com/-BzWb-GS1Bbo/UYKL4aJyzeI/AAAAAAAABo4/7MPYIM2Y0Ec/s1600/bfbba641.gif"
+        "http://goo.gl/crfEmg"
     ]
 
   robot.hear /進捗/, (msg)->
-    msg.send "http://33.media.tumblr.com/0812c2f2a5aaa0456243cad84ff93a51/tumblr_muolwfW8Hu1re64ggo1_500.gif"
+    msg.send "http://goo.gl/tQi9AS"
 
   robot.hear /good/, (msg) ->
-    msg.send "http://jojo-sty.up.seesaa.net/image/E382B8E383A7E382B8E383A720E38380E383BCE38393E383BC20E382B0E38383E38389EFBC81.jpg"
+    msg.send "http://goo.gl/ZRny2s"
 
   robot.hear /ぬるぽ/, (msg) ->
     msg.send '''
