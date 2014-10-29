@@ -1,1 +1,1 @@
-web: bin/hubot -a campfire -n iguuubot
+web: bin/hubot --adapter iguuubot
