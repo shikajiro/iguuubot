@@ -19,6 +19,9 @@ module.exports = (robot) ->
   robot.hear /進捗/, (msg)->
     msg.send "http://33.media.tumblr.com/0812c2f2a5aaa0456243cad84ff93a51/tumblr_muolwfW8Hu1re64ggo1_500.gif"
 
+  robot.hear /good/, (msg) ->
+    msg.send "http://jojo-sty.up.seesaa.net/image/E382B8E383A7E382B8E383A720E38380E383BCE38393E383BC20E382B0E38383E38389EFBC81.jpg"
+
   robot.hear /ぬるぽ/, (msg) ->
     msg.send '''
 
