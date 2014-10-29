@@ -11,6 +11,10 @@
 module.exports = (robot) ->
   robot.hear /おっぱい/, (msg) ->
     msg.send "だめよ〜だめだめ"
+
+  robot.hear /進捗/, (msg)->
+    msg.send "http://33.media.tumblr.com/0812c2f2a5aaa0456243cad84ff93a51/tumblr_muolwfW8Hu1re64ggo1_500.gif"
+
   # robot.hear /badger/i, (msg) ->
   #   msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
