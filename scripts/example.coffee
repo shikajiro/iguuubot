@@ -19,6 +19,17 @@ module.exports = (robot) ->
   robot.hear /進捗/, (msg)->
     msg.send "http://33.media.tumblr.com/0812c2f2a5aaa0456243cad84ff93a51/tumblr_muolwfW8Hu1re64ggo1_500.gif"
 
+  robot.hear /ぬるぽ/, (msg) ->
+    msg.send '''
+
+   Λ＿Λ    ＼＼
+  （ ・∀・）   | | ｶﾞｯ
+ と       ）   | |
+   Ｙ /ノ     人
+    / ）     <  >  _Λ∩
+ ＿/し' ／／  Ｖ｀Д´）/
+ （＿フ彡            / ←>>1
+'''
   # robot.hear /badger/i, (msg) ->
   #   msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
