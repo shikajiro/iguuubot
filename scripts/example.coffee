@@ -10,7 +10,11 @@
 
 module.exports = (robot) ->
   robot.hear /おっぱい/, (msg) ->
-    msg.send "だめよ〜だめだめ"
+    msg.send msg.random [
+        "だめよ〜だめだめ",
+        "おっぱい！おっぱい！",
+        "http://3.bp.blogspot.com/-BzWb-GS1Bbo/UYKL4aJyzeI/AAAAAAAABo4/7MPYIM2Y0Ec/s1600/bfbba641.gif"
+    ]
 
   robot.hear /進捗/, (msg)->
     msg.send "http://33.media.tumblr.com/0812c2f2a5aaa0456243cad84ff93a51/tumblr_muolwfW8Hu1re64ggo1_500.gif"
