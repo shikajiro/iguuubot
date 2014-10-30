@@ -53,7 +53,16 @@ r-'ｧ'"´/　 /!　ﾊ 　ハ　 !　　iヾ_ﾉ　i　ｲ　iゝ、ｲ人レ�
     msg.send msg.random [
         "だめよ〜だめだめ",
         "おっぱい！おっぱい！",
-        "http://goo.gl/crfEmg"
+        "http://goo.gl/crfEmg",
+        "http://goo.gl/vGd9bj",
+        "http://goo.gl/JZy41i",
+        "http://goo.gl/fRJ0sh",
+        "http://goo.gl/xKwaCO",
+        "http://goo.gl/kWoSHc",
+        "http://goo.gl/Rkouid",
+        "http://goo.gl/TRvnZ4",
+        "http://goo.gl/Lh1dHj",
+        "http://goo.gl/HTkprA"
     ]
 
   robot.hear /進捗/, (msg)->
