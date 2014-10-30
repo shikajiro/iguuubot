@@ -9,6 +9,8 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
+  robot.hear /ちんちん|ちんこ/, (msg)->
+      msg.send "シュッ!シュッ!シュッ!"
 
   robot.hear /うっかり/, (msg)->
     msg.send "http://goo.gl/GTEbSh"
