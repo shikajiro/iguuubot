@@ -60,15 +60,15 @@ r-'ｧ'"´/　 /!　ﾊ 　ハ　 !　　iヾ_ﾉ　i　ｲ　iゝ、ｲ人レ�
 
   robot.hear /ぬるぽ/, (msg) ->
     msg.send '''
+       Λ＿Λ    ＼＼
+      （ ・∀・）   | | ｶﾞｯ
+     と       ）   | |
+       Ｙ /ノ     人
+        / ）     <  >  _Λ∩
+     ＿/し' ／／  Ｖ｀Д´）/
+     （＿フ彡            / ←>>1
+   '''
 
-   Λ＿Λ    ＼＼
-  （ ・∀・）   | | ｶﾞｯ
- と       ）   | |
-   Ｙ /ノ     人
-    / ）     <  >  _Λ∩
- ＿/し' ／／  Ｖ｀Д´）/
- （＿フ彡            / ←>>1
-'''
   # robot.hear /badger/i, (msg) ->
   #   msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
