@@ -29,7 +29,11 @@ module.exports = (robot) ->
     msg.send "ああ〜ノンケになる〜〜"
 
   robot.hear /www/, (msg)->
-    msg.send "くっそわろたｗｗｗｗｗｗｗｗｗ"
+    msg.send msg.random [
+        "くっそわろたｗｗｗｗｗｗｗｗｗ",
+        "テラワロスwwwwwwwwwwwwwwwwwww",
+        "ちょｗｗｗｗｗｗｗおまｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    ]
 
   robot.hear /きっくん/, (msg)->
     msg.send "すぽぉおおおおおん"
