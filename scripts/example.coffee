@@ -82,6 +82,9 @@ r-'ｧ'"´/　 /!　ﾊ 　ハ　 !　　iヾ_ﾉ　i　ｲ　iゝ、ｲ人レ�
      （＿フ彡            / ←>>1
    '''
 
+   robot.hear /クソやな/, (msg)->
+     msg.send "http://goo.gl/jy4aon"
+
   # robot.hear /badger/i, (msg) ->
   #   msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
