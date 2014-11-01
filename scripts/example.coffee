@@ -26,7 +26,11 @@ module.exports = (robot) ->
   robot.hear /ウホ/, (msg)->
     msg.send "http://goo.gl/w5Lmf9"
   robot.hear /ああ〜/, (msg)->
-    msg.send "ああ〜ノンケになる〜〜"
+    msg.send msg.random [
+      "ああ〜ノンケになる〜〜",
+      "ああ＾～最高なんじゃあ〜〜",
+      "ああ＾～もっと、もっとなんじゃあ〜〜"
+    ]
 
   robot.hear /www/, (msg)->
     msg.send msg.random [
@@ -72,7 +76,12 @@ r-'ｧ'"´/　 /!　ﾊ 　ハ　 !　　iヾ_ﾉ　i　ｲ　iゝ、ｲ人レ�
     ]
 
   robot.hear /進捗/, (msg)->
-    msg.send "http://goo.gl/tQi9AS"
+    urls = [
+      "http://goo.gl/brjLqd",
+      "http://goo.gl/tQi9AS",
+      "http://goo.gl/G6Cx34"
+    ]
+    msg.send msg.random urls
 
   robot.hear /good/, (msg) ->
     msg.send "http://goo.gl/ZRny2s"
