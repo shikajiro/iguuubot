@@ -40,7 +40,10 @@ module.exports = (robot) ->
     ]
 
   robot.hear /きっくん/, (msg)->
-    msg.send "すぽぉおおおおおん"
+    msg.send msg.random [
+        "すぽぉおおおおおん",
+        ""
+    ]
 
   robot.hear /ゆっくり/, (msg)->
     msg.send '''
@@ -72,7 +75,11 @@ r-'ｧ'"´/　 /!　ﾊ 　ハ　 !　　iヾ_ﾉ　i　ｲ　iゝ、ｲ人レ�
         "http://goo.gl/Rkouid",
         "http://goo.gl/TRvnZ4",
         "http://goo.gl/Lh1dHj",
-        "http://goo.gl/HTkprA"
+        "http://goo.gl/HTkprA",
+        "http://goo.gl/sqa9jJ",
+        "http://goo.gl/vht3o5",
+        "http://goo.gl/wmj1lr",
+        "http://goo.gl/oSl9Et"
     ]
 
   robot.hear /進捗/, (msg)->
