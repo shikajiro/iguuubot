@@ -42,7 +42,7 @@ module.exports = (robot) ->
   robot.hear /きっくん/, (msg)->
     msg.send msg.random [
         "すぽぉおおおおおん",
-        ""
+        "全世界の皆、バァーーーーイ"
     ]
 
   robot.hear /ゆっくり/, (msg)->
@@ -79,7 +79,19 @@ r-'ｧ'"´/　 /!　ﾊ 　ハ　 !　　iヾ_ﾉ　i　ｲ　iゝ、ｲ人レ�
         "http://goo.gl/sqa9jJ",
         "http://goo.gl/vht3o5",
         "http://goo.gl/wmj1lr",
-        "http://goo.gl/oSl9Et"
+        "http://goo.gl/oSl9Et",
+        "http://goo.gl/m9mgxA",
+        "http://goo.gl/XKjnfL",
+        "http://goo.gl/IVlC4c",
+        "http://goo.gl/YAyPRa",
+        "http://goo.gl/oX1XO1",
+        "http://goo.gl/28spDS",
+        "http://goo.gl/4ouk8y",
+        "http://goo.gl/MOHslb",
+        "http://goo.gl/8MNypj",
+        "http://goo.gl/lwlbxQ",
+        "http://goo.gl/pm03RW",
+        "http://goo.gl/3PXU4i"
     ]
 
   robot.hear /進捗/, (msg)->
