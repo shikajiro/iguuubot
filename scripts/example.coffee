@@ -112,6 +112,9 @@ r-'ｧ'"´/　 /!　ﾊ 　ハ　 !　　iヾ_ﾉ　i　ｲ　iゝ、ｲ人レ�
       '''
      msg.send msg.random ["http://goo.gl/jy4aon",aa]
 
+  robot.hear /アイルビーバック/, (msg)->
+    msg.send "http://goo.gl/pWSjbK"
+
   # robot.hear /badger/i, (msg) ->
   #   msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
