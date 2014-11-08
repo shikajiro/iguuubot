@@ -18,6 +18,8 @@ module.exports = (robot) ->
     msg.send "http://goo.gl/GTEbSh"
   robot.hear /しっかり/, (msg) ->
     msg.send "http://goo.gl/91Bh77"
+  robot.hear /くっ/, (msg)->
+    msg.send "http://goo.gl/l0xvvJ"
 
   robot.hear /げっ|げえっ|げぇ/, (msg)->
     msg.send "http://goo.gl/8FB5sI"
