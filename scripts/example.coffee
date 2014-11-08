@@ -13,14 +13,12 @@ module.exports = (robot) ->
     msg.send msg.random ["(オトーサーン！)", "(ボンバッヘッ!)"]
   robot.hear /ちんちん|ちんこ/, (msg)->
     msg.send "シュッ!シュッ!シュッ!"
-
   robot.hear /うっかり/, (msg)->
     msg.send "http://goo.gl/GTEbSh"
   robot.hear /しっかり/, (msg) ->
     msg.send "http://goo.gl/91Bh77"
   robot.hear /くっ/, (msg)->
-    msg.send "http://goo.gl/l0xvvJ"
-
+    msg.send msg.random ["http://goo.gl/l0xvvJ", "http://goo.gl/P6p9v5"]
   robot.hear /げっ|げえっ|げぇ/, (msg)->
     msg.send "http://goo.gl/8FB5sI"
   robot.hear /ぬるぬる/, (msg)->
