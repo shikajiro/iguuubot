@@ -91,7 +91,31 @@ r-'ｧ'"´/　 /!　ﾊ 　ハ　 !　　iヾ_ﾉ　i　ｲ　iゝ、ｲ人レ�
         "http://goo.gl/8MNypj",
         "http://goo.gl/lwlbxQ",
         "http://goo.gl/pm03RW",
-        "http://goo.gl/3PXU4i"
+        "http://goo.gl/3PXU4i",
+        "http://goo.gl/I9z9ro",
+        "http://goo.gl/mc8VVC",
+        "http://goo.gl/TXvMfg",
+        "http://goo.gl/ZDPo1l",
+        "http://goo.gl/ILV4rW",
+        "http://goo.gl/O5KnQX",
+        "http://goo.gl/91r21v",
+        "http://goo.gl/s1jVOj",
+        "http://goo.gl/udScZN",
+        "http://goo.gl/ShI4YR",
+        "http://goo.gl/QKWuFM",
+        "http://goo.gl/Z1QsUu",
+        "http://goo.gl/GChUZB",
+        "http://goo.gl/qxRbyI",
+        "http://goo.gl/HNhKk6",
+        "http://goo.gl/wdh0Oc",
+        "http://goo.gl/IJTbLn",
+        "http://goo.gl/OgNDAi",
+        "http://goo.gl/VRgKhv",
+        "http://goo.gl/7Bxvm9",
+        "http://goo.gl/IMFDlP",
+        "http://goo.gl/wEWuuL",
+        "http://goo.gl/BLw3PW",
+        "http://goo.gl/e1kdnz"
     ]
 
   robot.hear /進捗/, (msg)->
