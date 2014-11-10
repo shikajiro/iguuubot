@@ -9,6 +9,8 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
+  robot.hear /プークス/, (msg)->
+    msg.send "http://goo.gl/uysOo"
   robot.hear /ボンバヘ/, (msg)->
     msg.send msg.random ["(オトーサーン！)", "(ボンバッヘッ!)"]
   robot.hear /ちんちん|ちんこ/, (msg)->
@@ -64,6 +66,7 @@ r-'ｧ'"´/　 /!　ﾊ 　ハ　 !　　iヾ_ﾉ　i　ｲ　iゝ、ｲ人レ�
 
   robot.hear /おっぱい/, (msg) ->
     msg.send msg.random [
+        "#{}",
         "だめよ〜だめだめ",
         "おっぱい！おっぱい！",
         "http://goo.gl/crfEmg",
@@ -115,7 +118,11 @@ r-'ｧ'"´/　 /!　ﾊ 　ハ　 !　　iヾ_ﾉ　i　ｲ　iゝ、ｲ人レ�
         "http://goo.gl/IMFDlP",
         "http://goo.gl/wEWuuL",
         "http://goo.gl/BLw3PW",
-        "http://goo.gl/e1kdnz"
+        "http://goo.gl/e1kdnz",
+        "http://goo.gl/riEfa3",
+        "http://goo.gl/3tn1um",
+        "http://goo.gl/zYGf5Y",
+        "http://goo.gl/7XJnA3"
     ]
 
   robot.hear /進捗/, (msg)->
