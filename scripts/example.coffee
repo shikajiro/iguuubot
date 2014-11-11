@@ -41,7 +41,8 @@ module.exports = (robot) ->
         "テラワロスwwwwwwwwwwwwwwwwwww",
         "ちょｗｗｗｗｗｗｗおまｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
     ]
-
+  robot.hear /菩薩掌/, (msg)->
+    msg.send msg.random ["http://goo.gl/2mTuEu","http://goo.gl/C6yJv2"]
   robot.hear /きっくん/, (msg)->
     msg.send msg.random [
         "すぽぉおおおおおん",
