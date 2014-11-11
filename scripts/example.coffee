@@ -30,10 +30,11 @@ module.exports = (robot) ->
   robot.hear /ああ〜/, (msg)->
     msg.send msg.random [
       "ああ〜ノンケになる〜〜",
-      "ああ＾～最高なんじゃあ〜〜",
-      "ああ＾～もっと、もっとなんじゃあ〜〜"
+      "ああ〜～最高なんじゃあ〜〜",
+      "ああ〜～もっと、もっとなんじゃあ〜〜"
     ]
-
+  robot.hear /ぷんすこ|プンスコ/, (msg)->
+    msg.send "http://goo.gl/LkGgwY"
   robot.hear /www/, (msg)->
     msg.send msg.random [
         "くっそわろたｗｗｗｗｗｗｗｗｗ",
