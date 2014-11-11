@@ -9,6 +9,7 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
+
   robot.hear /えっ/, (msg)->
     msg.send msg.random ["えっ", "なにそれこわい"]
   robot.hear /プークス/, (msg)->
@@ -67,6 +68,65 @@ r-'ｧ'"´/　 /!　ﾊ 　ハ　 !　　iヾ_ﾉ　i　ｲ　iゝ、ｲ人レ�
 　（　　,ﾊ　　　　ヽ _ﾝ　 　人! 　　　　 | ||ヽ、　　　　　　 ,ｲ| ||ｲ| /
 ,.ﾍ,）､　　）＞,､ _____,　,.イ　 ハ　　　　レ ル｀ ー--─ ´ルﾚ　ﾚ´
 '''
+
+  robot.hear /進捗/, (msg)->
+    urls = [
+      "http://goo.gl/brjLqd",
+      "http://goo.gl/tQi9AS",
+      "http://goo.gl/G6Cx34"
+    ]
+    msg.send msg.random urls
+
+  robot.hear /good/, (msg) ->
+    msg.send "http://goo.gl/ZRny2s"
+
+  robot.hear /ぬるぽ/, (msg) ->
+    msg.send '''
+       Λ＿Λ    ＼＼
+      （ ・∀・）   | | ｶﾞｯ
+     と       ）   | |
+       Ｙ /ノ     人
+        / ）     <  >  _Λ∩
+     ＿/し' ／／  Ｖ｀Д´）/
+     （＿フ彡            / ←>>1
+   '''
+
+   robot.hear /クソやな/, (msg)->
+     aa = '''
+
+.　　wwwwwwwwww
+  　 /／⌒ﾞﾞ⌒＼ヽ
+  　 Y　　　　　ﾐ|
+  　 |　ヽ＿ノ　ﾐ|
+  　(|(-･)⌒(･-)|)
+  　 | ￣(‥)￣ |
+  　 |　 wwww　 |＜クソやな
+  　 ヽ　 ⌒　 ノ
+  　　 ￣￣￣￣
+      '''
+     msg.send msg.random ["http://goo.gl/jy4aon",aa]
+
+  robot.hear /アイルビーバック/, (msg)->
+    msg.send "http://goo.gl/pWSjbK"
+
+  robot.hear /おすし/, (msg)->
+    msg.send '''
+    .
+    冂_土_ ＿|_ ＿＿〃/ ＿
+    冂--|-　(|　　／ ｜　/
+    ￣ヽ|　 ノ　 (_　 ﾚヽ_
+
+    　_|__　--/-　-―┐
+    　 |＿` ﾆ/ニ　二 ｜
+    　(|　) / 寸　凵 亅
+
+    　　 _／￣￣￣ﾌ
+    　 ／(>――-＜)＼
+    　｜ (＿＿＿＿＞｜
+    　｜ ヽ＿＿＿ノ ｜
+    　 ＼＿＿＿＿＿／
+    　　 ￣￣￣￣￣
+    '''
 
   robot.hear /おっぱい/, (msg) ->
     msg.send msg.random [
@@ -128,66 +188,45 @@ r-'ｧ'"´/　 /!　ﾊ 　ハ　 !　　iヾ_ﾉ　i　ｲ　iゝ、ｲ人レ�
         "http://goo.gl/zYGf5Y",
         "http://goo.gl/7XJnA3"
     ]
-
-  robot.hear /進捗/, (msg)->
-    urls = [
-      "http://goo.gl/brjLqd",
-      "http://goo.gl/tQi9AS",
-      "http://goo.gl/G6Cx34"
-    ]
-    msg.send msg.random urls
-
-  robot.hear /good/, (msg) ->
-    msg.send "http://goo.gl/ZRny2s"
-
-  robot.hear /ぬるぽ/, (msg) ->
-    msg.send '''
-       Λ＿Λ    ＼＼
-      （ ・∀・）   | | ｶﾞｯ
-     と       ）   | |
-       Ｙ /ノ     人
-        / ）     <  >  _Λ∩
-     ＿/し' ／／  Ｖ｀Д´）/
-     （＿フ彡            / ←>>1
-   '''
-
-   robot.hear /クソやな/, (msg)->
-     aa = '''
-
-.　　wwwwwwwwww
-  　 /／⌒ﾞﾞ⌒＼ヽ
-  　 Y　　　　　ﾐ|
-  　 |　ヽ＿ノ　ﾐ|
-  　(|(-･)⌒(･-)|)
-  　 | ￣(‥)￣ |
-  　 |　 wwww　 |＜クソやな
-  　 ヽ　 ⌒　 ノ
-  　　 ￣￣￣￣
-      '''
-     msg.send msg.random ["http://goo.gl/jy4aon",aa]
-
-  robot.hear /アイルビーバック/, (msg)->
-    msg.send "http://goo.gl/pWSjbK"
-
-  robot.hear /おすし/, (msg)->
-    msg.send '''
-    .
-    冂_土_ ＿|_ ＿＿〃/ ＿
-    冂--|-　(|　　／ ｜　/
-    ￣ヽ|　 ノ　 (_　 ﾚヽ_
-
-    　_|__　--/-　-―┐
-    　 |＿` ﾆ/ニ　二 ｜
-    　(|　) / 寸　凵 亅
-
-    　　 _／￣￣￣ﾌ
-    　 ／(>――-＜)＼
-    　｜ (＿＿＿＿＞｜
-    　｜ ヽ＿＿＿ノ ｜
-    　 ＼＿＿＿＿＿／
-    　　 ￣￣￣￣￣
-    '''
-
+robot.hear /edf/, (msg)->
+  msg.send msg.random [
+      "墓場はここじゃないぞ！生き残れ！",
+      "死に場所はここじゃないぞ！生き残れ！",
+      "戦って戦って…戦い続けろ！！",
+      "俺より先に死ぬことは許さんぞ！",
+      "一人でも多く生き残れ！",
+      "ちゃんと生きてるか！？",
+      "EDF！EDF！",
+      "EDFの勇猛さを見せる時だ！",
+      "人類が生き残るには倒すしかない。分かったか！",
+      "人類に降伏はない！最後まで戦え！！",
+      "的は大きい、外すんじゃないぞ！！",
+      "すべての弾薬を敵に撃ち込むまで死ぬな！",
+      "自由のために戦え！最後まで！",
+      "俺たちは自由だ！死ぬ瞬間まで！！",
+      "恐れるな！敵を殲滅しろ！！",
+      "怯むな！隊形を整えろ！",
+      "陣形を崩すな！",
+      "固まるな！散開しろ！！",
+      "後ろにも注意しろ！",
+      "逃げるな！戦え！！",
+      "弾を無駄にするな！",
+      "訓練を忘れるな！撃ち続けろ！",
+      "野郎ども！全弾打ち尽くせ！",
+      "撃て！撃て！全弾撃ち尽くせ！",
+      "撃て！撃ちながら進め！",
+      "今さら失うものは無い。撃て！",
+      "引き金を引け！敵を撃て！",
+      "敵はすべて倒せ！",
+      "地獄へ送り込め！！",
+      "派手にやれ！",
+      "ぅらあぁぁぁぁぁぁ！",
+      "巨大生物をやれーっ！",
+      "誰か、あいつをやれ！",
+      "このクソどもに思い知らせろ！",
+      "人類の力を見せてやれ！",
+      "敵に教えてやれ！楽に勝たせはしないとな！",
+      "全世界の仇を俺たちが取るんだ！"]
   # robot.hear /badger/i, (msg) ->
   #   msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
