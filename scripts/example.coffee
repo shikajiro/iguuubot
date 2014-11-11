@@ -188,7 +188,7 @@ r-'ｧ'"´/　 /!　ﾊ 　ハ　 !　　iヾ_ﾉ　i　ｲ　iゝ、ｲ人レ�
         "http://goo.gl/zYGf5Y",
         "http://goo.gl/7XJnA3"
     ]
-robot.hear /edf/, (msg)->
+robot.hear /edf|EDF/, (msg)->
   msg.send msg.random [
       "墓場はここじゃないぞ！生き残れ！",
       "死に場所はここじゃないぞ！生き残れ！",
