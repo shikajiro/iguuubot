@@ -38,7 +38,7 @@ module.exports = (robot) ->
     ]
   robot.hear /ぷんすこ|プンスコ/, (msg)->
     msg.send "http://goo.gl/LkGgwY"
-  robot.hear /www/, (msg)->
+  robot.hear /www(?!\.)/, (msg)->
     msg.send msg.random [
         "くっそわろたｗｗｗｗｗｗｗｗｗ",
         "テラワロスwwwwwwwwwwwwwwwwwww",
